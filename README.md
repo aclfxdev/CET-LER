@@ -1,5 +1,5 @@
 # CET-LER
-Combined Engine Toggle and Leave Engine Running resource for FiveM.
+**C**ombined **E**ngine **T**oggle and **L**eave **E**ngine **R**unning resource for FiveM.
 
 **Intro**
 
