@@ -1,9 +1,10 @@
 # CET-LER
-Combined engine toggle and leave engine running resource for FiveM.
+Combined Engine Toggle and Leave Engine Running resource for FiveM.
 
 **Intro**
 
 Hi, this is my first sort-of script, so if there's any suggestions to optimize the code or any features you'd like added, please feel free to let me know! :) 
+It's meant for more serious RP servers.
 
 I wanted to find a resource for my server that would force the player to use their scroll wheel to toggle the engine on and off to use vehicles, as well as leaving the engine running if they got out of the car with it running. I searched all over the forums for such a script and couldn't find it, so I made one myself. 
 
