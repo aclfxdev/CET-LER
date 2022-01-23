@@ -4,7 +4,7 @@
 -- 					 Version 1.0				 --
 -- -- -- -- -- -- -- -- -- -- -- --- -- -- -- -- --
 
-local button = 15 -- Sets engine toggle button to SCROLLWHEEL UP, view list of controls here if you wish to change: https://docs.fivem.net/docs/game-references/controls/#controls
+local keyToggle = 15 -- Sets engine toggle button to SCROLLWHEEL UP, view list of controls here if you wish to change: https://docs.fivem.net/docs/game-references/controls/#controls
 
 Citizen.CreateThread(function()
     while true do
@@ -25,7 +25,7 @@ Citizen.CreateThread(function()
 			DisableControlAction(2, 71, true) -- general script to disable player auto-starting the car when already in car.
 		end
 		
-		if (IsControlJustReleased(0, button) or IsDisabledControlJustReleased(0, button)) and vehicle ~= nil and vehicle ~= 0 and GetPedInVehicleSeat(vehicle, 0) then
+		if (IsControlJustReleased(0, keyToggle) or IsDisabledControlJustReleased(0, keyToggle)) and vehicle ~= nil and vehicle ~= 0 and GetPedInVehicleSeat(vehicle, 0) then
 			toggleEngine()
 			if not (engineStatus) then
 				engineStatus = true -- flips engineStatus since it was false.
