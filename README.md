@@ -16,6 +16,4 @@ The resource limits the player to the following:
 * Toggle engine state with Scrollwheel Up only (*editable in client.lua*).
 * Engine stays on after exiting the vehicle.
 
-Due to how basic the script is, if you get into and out of the vehicle too fast the engine will turn off, I will look into this over the next few days to see what I can do about it.
-
-Download the resource from my Github: 
+*Due to how basic the script is, if you get into and out of the vehicle too fast the engine will turn off, I will look into this over the next few days to see what I can do about it.*
